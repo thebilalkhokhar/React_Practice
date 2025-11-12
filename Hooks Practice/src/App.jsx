@@ -6,6 +6,7 @@ import UseStateHook from "./Hooks/useStateHook";
 import { ThemeProvider } from "./Hooks/Contexts/ThemeContext";
 import UseReducerHook from "./Hooks/UseReducerHook/UseReducerHook";
 import UseCallBackHook from "./Hooks/UseCallBackHook/UseCallBackHook";
+import UseCustomHook from "./Hooks/Custom Hooks/UseCustomHook";
 function App() {
   return (
     <>
@@ -19,7 +20,8 @@ function App() {
       </ThemeProvider> */}
 
       {/* <UseReducerHook /> */}
-      <UseCallBackHook />
+      {/* <UseCallBackHook /> */}
+      <UseCustomHook />
     </>
   );
 }

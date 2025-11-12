@@ -1,0 +1,49 @@
+/* General container styling */
+.customHook-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #89f7fe, #66a6ff);
+  font-family: "Poppins", sans-serif;
+}
+
+/* Inner box styling */
+.customHook-box {
+  background: white;
+  padding: 40px 50px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  width: 320px;
+}
+
+/* Title styling */
+.customHook-title {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+/* Input box styling */
+.customHook-input {
+  width: 100%;
+  padding: 12px 15px;
+  border: 2px solid #66a6ff;
+  border-radius: 10px;
+  outline: none;
+  font-size: 16px;
+  transition: 0.3s ease;
+}
+
+/* Input focus effect */
+.customHook-input:focus {
+  border-color: #4a90e2;
+  box-shadow: 0 0 8px rgba(74, 144, 226, 0.4);
+}
+
+/* Placeholder color */
+.customHook-input::placeholder {
+  color: #aaa;
+}
