@@ -1,0 +1,73 @@
+/* Full page centered layout */
+.deferred-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #fbc2eb, #a6c1ee);
+  font-family: "Poppins", sans-serif;
+}
+
+/* Main card */
+.deferred-box {
+  background: #ffffff;
+  width: 400px;
+  padding: 35px 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  max-height: 80vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Title */
+.deferred-title {
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Input field */
+.deferred-input {
+  padding: 10px 15px;
+  border: 2px solid #a6c1ee;
+  border-radius: 8px;
+  outline: none;
+  font-size: 15px;
+  width: 100%;
+  margin-bottom: 15px;
+  transition: 0.3s;
+}
+
+.deferred-input:focus {
+  border-color: #7b9de3;
+  box-shadow: 0 0 8px rgba(123, 157, 227, 0.3);
+}
+
+/* Scrollable list area */
+.deferred-list {
+  flex-grow: 1;
+  overflow-y: auto;
+  border-top: 1px solid #eee;
+  padding-top: 10px;
+}
+
+/* List items */
+.deferred-item {
+  padding: 5px 0;
+  font-size: 14px;
+  color: #555;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+/* Optional scrollbar styling */
+.deferred-list::-webkit-scrollbar {
+  width: 6px;
+}
+
+.deferred-list::-webkit-scrollbar-thumb {
+  background-color: #bbb;
+  border-radius: 3px;
+}

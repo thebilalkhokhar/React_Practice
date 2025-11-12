@@ -10,6 +10,7 @@ import UseCustomHook from "./Hooks/Custom Hooks/UseCustomHook";
 import ModalExample from "./Hooks/UseLayoutEffectHook/ModalExample";
 import React from "react";
 import UseTransitionHook from "./Hooks/UseTransitionHook/UseTransitionHook";
+import UseDeferredValueHook from "./Hooks/UseDeferredValueHook/UseDefferedValue";
 function App() {
   return (
     <>
@@ -26,7 +27,8 @@ function App() {
       {/* <UseCallBackHook /> */}
       {/* <UseCustomHook /> */}
       {/* <ModalExample /> */}
-      <UseTransitionHook />
+      {/* <UseTransitionHook /> */}
+      <UseDeferredValueHook />
     </>
   );
 }
