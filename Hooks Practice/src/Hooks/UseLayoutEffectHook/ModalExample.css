@@ -1,0 +1,57 @@
+/* Full page container */
+.modal-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(120deg, #ffecd2, #fcb69f);
+  font-family: "Poppins", sans-serif;
+  position: relative;
+}
+
+/* Button styling */
+.modal-btn {
+  padding: 12px 25px;
+  background: #ff8c42;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.modal-btn:hover {
+  background: #ff7b00;
+  transform: scale(1.05);
+}
+
+/* Popup box styling */
+.modal-popup {
+  position: absolute;
+  background: white;
+  padding: 20px 25px;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  /* animation: fadeIn 0.3s ease; */
+}
+
+/* Text inside popup */
+.modal-text {
+  color: #333;
+  font-size: 18px;
+  margin: 0;
+}
+
+/* Smooth popup animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

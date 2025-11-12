@@ -7,6 +7,8 @@ import { ThemeProvider } from "./Hooks/Contexts/ThemeContext";
 import UseReducerHook from "./Hooks/UseReducerHook/UseReducerHook";
 import UseCallBackHook from "./Hooks/UseCallBackHook/UseCallBackHook";
 import UseCustomHook from "./Hooks/Custom Hooks/UseCustomHook";
+import ModalExample from "./Hooks/UseLayoutEffectHook/ModalExample";
+import React from "react";
 function App() {
   return (
     <>
@@ -21,7 +23,10 @@ function App() {
 
       {/* <UseReducerHook /> */}
       {/* <UseCallBackHook /> */}
-      <UseCustomHook />
+      {/* <UseCustomHook /> */}
+      <React.StrictMode>
+        <ModalExample />
+      </React.StrictMode>
     </>
   );
 }
