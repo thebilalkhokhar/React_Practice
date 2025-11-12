@@ -11,6 +11,7 @@ import ModalExample from "./Hooks/UseLayoutEffectHook/ModalExample";
 import React from "react";
 import UseTransitionHook from "./Hooks/UseTransitionHook/UseTransitionHook";
 import UseDeferredValueHook from "./Hooks/UseDeferredValueHook/UseDefferedValue";
+import UseImperativeHandleHook from "./Hooks/UseImperativeHandle Hook/UseImperativeHandleHook";
 function App() {
   return (
     <>
@@ -28,7 +29,8 @@ function App() {
       {/* <UseCustomHook /> */}
       {/* <ModalExample /> */}
       {/* <UseTransitionHook /> */}
-      <UseDeferredValueHook />
+      {/* <UseDeferredValueHook /> */}
+      <UseImperativeHandleHook />
     </>
   );
 }
