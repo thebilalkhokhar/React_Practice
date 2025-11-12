@@ -9,6 +9,7 @@ import UseCallBackHook from "./Hooks/UseCallBackHook/UseCallBackHook";
 import UseCustomHook from "./Hooks/Custom Hooks/UseCustomHook";
 import ModalExample from "./Hooks/UseLayoutEffectHook/ModalExample";
 import React from "react";
+import UseTransitionHook from "./Hooks/UseTransitionHook/UseTransitionHook";
 function App() {
   return (
     <>
@@ -24,9 +25,8 @@ function App() {
       {/* <UseReducerHook /> */}
       {/* <UseCallBackHook /> */}
       {/* <UseCustomHook /> */}
-      <React.StrictMode>
-        <ModalExample />
-      </React.StrictMode>
+      {/* <ModalExample /> */}
+      <UseTransitionHook />
     </>
   );
 }
