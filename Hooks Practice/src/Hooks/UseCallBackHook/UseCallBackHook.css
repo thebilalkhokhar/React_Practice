@@ -1,0 +1,83 @@
+/* Center the entire content */
+.callback-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+/* Inner card */
+.callback-card {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 2rem 3rem;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Title */
+.title {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Input styling */
+.number-input {
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  margin-right: 0.8rem;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.2s ease;
+}
+
+.number-input:focus {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Button styling */
+.toggle-btn {
+  background-color: #0078ff;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.toggle-btn:hover {
+  background-color: #005fcc;
+  transform: translateY(-2px);
+}
+
+/* List container */
+.list-container {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+/* List item styling */
+.list-item {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 0.5rem 1.5rem;
+  border-radius: 10px;
+  width: 100px;
+  text-align: center;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.list-item:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
